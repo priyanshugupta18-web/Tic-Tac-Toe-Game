@@ -4,6 +4,7 @@ let newbtn = document.querySelector("#new");
 let para = document.querySelector(".para");
 let gameOver = false;
 
+para.style.display = "none";
 let turnX = true;
 
 let winPatterns = [
@@ -32,6 +33,7 @@ let isWinner = () => {
             document.querySelector(".mastercontainer").style.display = "none";
             document.querySelector(".newbtn").style.display = "flex";
 
+            para.style.display = "flex";
             para.innerText = `Congratulations! Player ${a} is the Winner`;
             return true;
         }
@@ -55,6 +57,7 @@ let isDraw = () => {
     document.querySelector(".mastercontainer").style.display = "none";
     document.querySelector(".newbtn").style.display = "flex";
 
+    para.style.display = "flex";
     para.innerText = "Its a draw!";
     return true;
 };
@@ -87,6 +90,7 @@ resetbtn.addEventListener("click", () => {
     }
     turnX = true;
     gameOver = false;
+    para.style.display = "none";
 });
 
 
@@ -102,4 +106,5 @@ newbtn.addEventListener("click", () => {
     document.querySelector(".resetbtn").style.display = "";
     document.querySelector(".mastercontainer").style.display = "";
     document.querySelector(".newbtn").style.display = "none";
+    para.style.display = "none";
 });
