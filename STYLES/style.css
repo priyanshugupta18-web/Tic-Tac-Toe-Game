@@ -96,11 +96,12 @@ h1 {
 }
 
 .para{
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: serif;
     color: black;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10vw 0;
 }
