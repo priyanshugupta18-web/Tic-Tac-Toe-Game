@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #74B3CE;
+    color: white
+}
+
+.headcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.head {
+    background-color: #172A3A;
+    padding: 20px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #43686d;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.mastercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+    width: 42vw;
+    flex-wrap: wrap;
+
+}
+
+.boxes {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 20px;
+    border: none;
+    background-color: #315b61;
+    color: white;
+    font-size: 5vw;
+
+}
+
+.resetbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vw;
+}
+
+#reset {
+    padding: 20px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    box-shadow: 10px 10px 10px #315b61;
+}
+
+#new {
+    padding: 20px;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    box-shadow: 10px 10px 10px #315b61;
+}
+
+.newbtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
