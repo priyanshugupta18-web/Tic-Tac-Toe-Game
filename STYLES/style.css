@@ -23,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #43686d;
 }
 
 h1 {
@@ -77,7 +76,6 @@ h1 {
     border-radius: 10px;
     color: white;
     background-color: rgb(29, 28, 28);
-    box-shadow: 10px 10px 10px #315b61;
 }
 
 #new {
@@ -87,7 +85,6 @@ h1 {
     border-radius: 10px;
     color: white;
     background-color: rgb(29, 28, 28);
-    box-shadow: 10px 10px 10px #315b61;
 }
 
 .newbtn {
