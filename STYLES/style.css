@@ -94,3 +94,13 @@ h1 {
     margin-bottom: 10vw;
     margin-top: 5vw;
 }
+
+.para{
+    font-size: 4vw;
+    font-family: serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
